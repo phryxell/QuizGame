@@ -417,7 +417,7 @@ namespace QuizGame
                 else if (YourScore == 6 || YourScore == 5)
                     Console.WriteLine("\n\tYou got a " + YourScore + ", not terrible!");
                 else if (YourScore < 5)
-                    Console.WriteLine("\n\tYour score is...     " + YourScore + ", fuck off you scouser");
+                    Console.WriteLine("\n\tYour score is...     " + YourScore + ", terrible!");
 
                 Console.WriteLine();
 
