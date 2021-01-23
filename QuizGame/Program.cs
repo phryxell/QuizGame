@@ -19,9 +19,6 @@ namespace QuizGame
 
             string filePath = @"c:\temp\highscores.json";
 
-            //string rootFolder = Directory.GetCurrentDirectory();
-            //string filePath = "highscores.json";
-
             var quizMusic = new SoundPlayer
             {
                 SoundLocation = @"https://studenter.miun.se/~phno1900/music/quizmusic.wav"
@@ -139,12 +136,6 @@ namespace QuizGame
                     Console.WriteLine("Please enter a valid letter");
                     usersAnswer1 = Console.ReadLine();
                 }
-
-                //if (string.IsNullOrEmpty(usersAnswer1) || usersAnswer1.Trim().Length != 1 && usersAnswer1 != "a" || usersAnswer1 != "b" || usersAnswer1 != "c" || usersAnswer1 != "d")
-                //{
-                  //  Console.WriteLine("Please enter a valid letter");
-                   // usersAnswer1 = Console.ReadLine();
-                //} 
 
                 if (usersAnswer1 == answer1)
                 { 
@@ -427,7 +418,7 @@ namespace QuizGame
 
                 add.Create(username, YourScore);
             }
-            while (usersChoice == answer); //use this type of if statement for Y/N stuff
+            while (usersChoice == answer); //Statement for Y/N 
 
             Console.ReadKey();
         }
