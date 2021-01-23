@@ -1,3 +1,3 @@
 # QuizGame
 
-## A Quiz Game - Test Your Knowledge About Manchester United
+#### A Quiz Game - Test Your Knowledge About Manchester United
