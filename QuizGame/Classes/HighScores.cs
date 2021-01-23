@@ -9,9 +9,6 @@ namespace QuizGame.Classes
     class HighScores
     {
         // Create filepath
-        //public string filePath = @"C:\Users\phili\source\repos\QuizApp\QuizApp\highscores.json";
-
-        // string filePath = Combine(CurrentDirectory, "highscores.json");
 
         string filePath = @"c:\temp\highscores.json";
 
